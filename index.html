@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Enterprise Expansion Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Import Serif for Editorial Feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Consultancy Theme */
+        body { 
+            font-family: 'Source Sans Pro', sans-serif; 
+            background-color: #EAEAE5; /* Outer background darker greige */
+            color: #333333; 
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .consultancy-card {
+            background-color: #FDFDFD; /* Off-white paper look */
+            border: 1px solid #D6D6D2;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+        }
+
+        .consultancy-header {
+            background-color: #1A202C; /* Deep Slate/Navy */
+            color: #F5F5F0;
+        }
+
+        .text-classic-red { color: #8B0000; /* Dark Brick Red */ }
+        .text-classic-navy { color: #1A202C; }
+        .bg-classic-navy { background-color: #1A202C; }
+        .bg-classic-red { background-color: #8B0000; }
+        
+        /* Thin, elegant borders */
+        .elegant-border { border-bottom: 1px solid #D1D5DB; }
+    </style>
+</head>
+<body class="p-4 md:p-12"> <!-- Increased padding for 'printed' feel -->
+
+    <div class="max-w-5xl mx-auto consultancy-card">
+        
+        <!-- Header -->
+        <header class="consultancy-header p-10 relative">
+             <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <p class="text-xs font-bold tracking-[0.2em] uppercase text-gray-400 mb-2">FY25 Strategic Report</p>
+                    <h1 class="text-4xl md:text-5xl font-serif italic tracking-tight mb-2">Marketing Budget Allocation</h1>
+                    <p class="font-light text-gray-300 tracking-wide">Canva Enterprise Expansion Initiative</p>
+                </div>
+                <div class="mt-8 md:mt-0 text-right border-l border-gray-600 pl-6">
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-1">Growth Gap Analysis</p>
+                    <p class="text-4xl font-serif text-white">$700 Million</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Executive Summary / Status -->
+        <section class="p-10 border-b border-gray-200">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 border-b border-gray-300 pb-2 w-full">Executive Summary</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div>
+                    <p class="text-gray-500 text-xs uppercase mb-2 tracking-wide">Current Status (ARR)</p>
+                    <h2 class="text-3xl font-serif text-classic-navy">$3.3 Billion</h2>
+                </div>
+                <div class="px-4">
+                     <div class="flex justify-between text-xs font-semibold mb-2 uppercase text-gray-500 tracking-wide">
+                        <span>Progress to Target</span>
+                        <span>82.5%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-1">
+                        <div class="bg-classic-navy h-1" style="width: 82.5%"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-classic-red text-xs font-bold uppercase mb-2 tracking-wide">Target Revenue</p>
+                    <h2 class="text-3xl font-serif text-classic-red">$4.0 Billion</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strategic Levers Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            
+            <!-- Lever 1: Retention -->
+            <section class="p-10 border-r border-gray-200 bg-white">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest border border-gray-300 px-2 py-1">Lever I</span>
+                        <h3 class="text-2xl font-serif text-classic-navy mt-4">Retention Strategy</h3>
+                        <p class="text-sm text-gray-500 italic mt-1">Reactivating "High-Value" Lapsed Teams</p>
+                    </div>
+                    <span class="text-gray-500 text-[10px] font-bold uppercase tracking-wide">High ROI Priority</span>
+                </div>
+
+                <div class="space-y-8 mt-8">
+                    <!-- Data Point -->
+                    <div class="flex items-start">
+                        <div class="mr-4 mt-1 text-classic-navy opacity-50"><i class="fas fa-chart-pie"></i></div>
+                        <div>
+                            <p class="text-xs text-gray-400 uppercase font-semibold">Segment</p>
+                            <p class="text-lg font-serif text-gray-800">150,000 Lapsed Teams</p>
+                        </div>
+                    </div>
+
+                    <!-- Flow -->
+                    <div class="pl-3 border-l border-gray-300 ml-2 space-y-4">
+                         <div>
+                            <p class="text-xs text-gray-400 uppercase font-semibold pl-4">Objective</p>
+                            <p class="text-md font-medium text-gray-700 pl-4">20% Win-Back Rate</p>
+                        </div>
+                    </div>
+
+                    <!-- Result -->
+                    <div class="bg-[#F9F9F7] p-6 border border-gray-200">
+                         <div class="flex justify-between items-end">
+                            <div>
+                                <p class="text-xs text-gray-400 uppercase mb-1">Recovered Revenue</p>
+                                <p class="text-2xl font-serif text-classic-navy">$60 Million</p>
+                            </div>
+                             <div class="text-right">
+                                <p class="text-xs text-gray-400 uppercase mb-1">Allocated Budget</p>
+                                <p class="text-lg font-bold text-gray-600">$3M</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lever 2: Acquisition -->
+            <section class="p-10 bg-[#F5F5F0]"> <!-- Slightly darker/warmer background -->
+                 <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest border border-gray-300 px-2 py-1">Lever II</span>
+                        <h3 class="text-2xl font-serif text-classic-navy mt-4">Acquisition Strategy</h3>
+                        <p class="text-sm text-gray-500 italic mt-1">Enterprise Lookalikes & Mid-Market</p>
+                    </div>
+                     <span class="text-classic-red text-[10px] font-bold uppercase tracking-wide">Primary Growth Engine</span>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6 mb-8 mt-8">
+                    <div class="border-b border-gray-300 pb-2">
+                        <p class="text-xs text-gray-400 uppercase tracking-wide">Volume Required</p>
+                        <p class="text-xl font-serif text-gray-900">320,000</p>
+                    </div>
+                    <div class="border-b border-gray-300 pb-2">
+                        <p class="text-xs text-gray-400 uppercase tracking-wide">Avg. Deal Size</p>
+                        <p class="text-xl font-serif text-gray-900">$2,000</p>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-xs font-bold text-gray-600 uppercase tracking-wide">Gap Contribution</span>
+                        <span class="text-sm font-serif font-bold text-classic-red">$640 Million</span>
+                    </div>
+                    <div class="w-full bg-gray-200 h-1">
+                        <div class="bg-classic-red h-1" style="width: 91%"></div>
+                    </div>
+                    <p class="text-[10px] text-right mt-2 text-gray-400 italic font-serif">Represents 91% of strategic gap</p>
+                </div>
+
+                <div class="bg-white p-6 border border-gray-200 shadow-sm">
+                     <div class="flex justify-between items-end">
+                        <div>
+                            <p class="text-xs text-gray-400 uppercase mb-1">Efficiency Ratio (MER)</p>
+                            <p class="text-sm font-medium text-gray-600">15%</p>
+                        </div>
+                         <div class="text-right">
+                            <p class="text-xs text-gray-400 uppercase mb-1">Allocated Budget</p>
+                            <p class="text-2xl font-serif text-classic-navy">$96M</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Financial Summary & Charts -->
+        <section class="p-10 border-t border-gray-200">
+            <h3 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-8 border-b border-gray-300 pb-2 w-full">Budget Distribution Analysis</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <!-- Chart -->
+                <div class="relative h-64 w-full">
+                    <canvas id="consultancyChart"></canvas>
+                     <div class="absolute inset-0 flex items-center justify-center flex-col pointer-events-none">
+                         <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">Total Spend</p>
+                         <p class="text-3xl font-serif text-classic-navy">$99M</p>
+                    </div>
+                </div>
+
+                <!-- Textual Breakdown -->
+                <div class="space-y-4">
+                     <table class="w-full text-sm">
+                        <thead class="text-xs text-gray-400 uppercase border-b border-gray-200 tracking-wider">
+                            <tr>
+                                <th class="text-left py-2 font-normal">Channel</th>
+                                <th class="text-right py-2 font-normal">Allocation</th>
+                                <th class="text-right py-2 font-normal">Focus</th>
+                            </tr>
+                        </thead>
+                        <tbody class="font-serif text-gray-700">
+                            <tr class="border-b border-gray-100">
+                                <td class="py-3 flex items-center"><span class="w-2 h-2 bg-[#1A202C] mr-3"></span>LinkedIn Ads</td>
+                                <td class="text-right py-3 font-bold">40%</td>
+                                <td class="text-right py-3 text-gray-500 italic font-sans text-xs">Decision Makers</td>
+                            </tr>
+                            <tr class="border-b border-gray-100">
+                                <td class="py-3 flex items-center"><span class="w-2 h-2 bg-[#4A5568] mr-3"></span>SEM</td>
+                                <td class="text-right py-3 font-bold">30%</td>
+                                <td class="text-right py-3 text-gray-500 italic font-sans text-xs">High Intent</td>
+                            </tr>
+                            <tr class="border-b border-gray-100">
+                                <td class="py-3 flex items-center"><span class="w-2 h-2 bg-[#8B0000] mr-3"></span>ABM</td>
+                                <td class="text-right py-3 font-bold">20%</td>
+                                <td class="text-right py-3 text-gray-500 italic font-sans text-xs">Fortune 500</td>
+                            </tr>
+                             <tr>
+                                <td class="py-3 flex items-center"><span class="w-2 h-2 bg-[#CBD5E0] mr-3"></span>Nurture</td>
+                                <td class="text-right py-3 font-bold">10%</td>
+                                <td class="text-right py-3 text-gray-500 italic font-sans text-xs">Retention</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-50 p-6 text-center border-t border-gray-200">
+            <p class="text-[10px] text-gray-400 uppercase tracking-widest font-serif">Confidential Strategy Document • FY2025</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const ctx = document.getElementById('consultancyChart').getContext('2d');
+        // Define Consultancy Palette
+        const deepNavy = '#1A202C';
+        const slateGrey = '#4A5568';
+        const brickRed = '#8B0000';
+        const lightGrey = '#CBD5E0';
+
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['LinkedIn', 'SEM', 'ABM', 'Nurture'],
+                datasets: [{
+                    data: [40, 30, 20, 10],
+                    backgroundColor: [deepNavy, slateGrey, brickRed, lightGrey],
+                    borderWidth: 0,
+                    hoverOffset: 10
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '85%', // Very thin, elegant ring
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#fff',
+                        titleColor: '#1A202C',
+                        bodyColor: '#4A5568',
+                        borderColor: '#E2E8F0',
+                        borderWidth: 1,
+                        padding: 12,
+                        bodyFont: { family: 'Source Sans Pro' },
+                        titleFont: { family: 'Playfair Display' },
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.raw + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
